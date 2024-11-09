@@ -28,5 +28,11 @@
             "Mujahidin\\Authentication\\AuthServiceProvider"
         ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nmujahidin-aa/authentication"
+        }
+    ]
 }
