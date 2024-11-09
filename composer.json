@@ -1,0 +1,32 @@
+{
+    "name": "nmujahidin-aa/authentication",
+    "description": "Authentication for laravel\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Easy authentication for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mujahidin\\Authentication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nmujahidin-aa",
+            "email": "nurmujahidin18@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^8.1 || ^8.2 || ^8.3",
+        "bensampo/laravel-enum": "^6.11",
+        "realrashid/sweet-alert": "^7.2",
+        "spatie/laravel-permission": "^6.9"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+        "providers": [
+            "Mujahidin\\Authentication\\AuthServiceProvider"
+        ]
+        }
+    }
+}
